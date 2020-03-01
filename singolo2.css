@@ -114,6 +114,7 @@ h3 {
 .social img {
   margin-right: 5px;
   transition: 0.3s;
+  padding-bottom: 43px;
 }
 .social img:hover {
   transform: scale(1.2);
