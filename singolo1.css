@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrap {
+  margin: 0 auto;
+  width: 1020px;
+}
+.headerBg {
+  background-color: #2d303a;
+}
+.content {
+  width: 940px;
+  margin: 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  /* margin-left: 40px; */
+
+  align-items: center;
+  /* height: 89px; */
+  color: #414556;
+  padding: 34px 0 35px;
+}
+
+.logo h1 {
+  color: #ffffff;
+  font-family: "Lato Bold";
+  font-size: 25px;
+  line-height: 6.32px;
+}
+
+header a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: "Lato Bold";
+  font-size: 12px;
+  line-height: 6.32px;
+}
+
+.polosa {
+  height: 6px;
+  background-color: #323746;
+}
+
+.point {
+  padding: 8px;
+}
+.star {
+  color: red;
+}
+
+nav a:hover {
+  color: #f06c64;
+}
+
+.active:active {
+  color: #f06c64;
+}
+
+.chev:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+
+.sliderBg {
+  background-color: #f06c64;
+}
+
+.sliderContent {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.slider {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 59px 0 60px;
+}
+
+.polosa2 {
+  height: 6px;
+  background-color: #ea676b;
+}
+
+.servicesBg {
+  padding-top: 55px;
+  background-color: #f2f2f2;
+}
+
+.servicesContent {
+  width: 940px;
+  margin: 0 auto;
+}
+
+.services {
+  padding-bottom: 44px;
+}
+.services h1 {
+  color: #666d89;
+  font-family: "Lato Black";
+  font-size: 30px;
+}
+
+.services p {
+  color: #767e9e;
+  font-family: "Lato Light";
+  font-size: 18px;
+  margin-top: 15px;
+  line-height: 30px;
+  word-spacing: 1.1px;
+}
+
+.first {
+  display: flex;
+}
+
+.second {
+  margin-top: 30px;
+  display: flex;
+  padding-bottom: 65px;
+}
+
+.icons h2 {
+  color: #666d89;
+  font-family: "Lato Black";
+  font-size: 18px;
+}
+
+.icons p {
+  color: #767e9e;
+  font-family: "Lato Bold";
+  font-size: 12px;
+  line-height: 21.56px;
+  margin-top: 9px;
+  overflow: hidden;
+}
+
+.iconText {
+  width: 220px;
+
+  margin-left: 22px;
+}
+.iconText1 {
+  width: 220px;
+
+  margin-left: 20px;
+}
+
+.icon {
+  margin-left: 30px;
+}
+
+.polosa3 {
+  height: 6px;
+  background-color: #ffffff;
+}

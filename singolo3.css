@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-family: "Lato Black";
+  color: #f0d8d9;
+  font-size: 30px;
+  padding-bottom: 19px;
+}
+
+h3 {
+  font-family: "Lato Black";
+  color: #f0d8d9;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.wrap {
+  width: 1020px;
+  margin: 0 auto;
+}
+
+.wrapContent {
+  width: 940px;
+}
+.bgColor {
+  background-color: #f16c64;
+
+  display: flex;
+  justify-content: center;
+  padding-bottom: 65px;
+}
+
+.headerText {
+  margin-top: 60px;
+  padding-bottom: 40px;
+}
+
+.headerText p {
+  line-height: 30px;
+  font-family: "Lato Light";
+  letter-spacing: 1px;
+  color: #f0d8d9;
+}
+
+.formContent {
+  display: flex;
+  padding-bottom: 3px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formText {
+  margin-left: 20px;
+}
+
+.formText p {
+  font-size: 12px;
+  line-height: 21.56px;
+  font-family: "Lato Regular";
+  color: #f0d8d9;
+}
+
+::placeholder {
+  color: #f48c8f;
+  font-family: "Lato Regular";
+  font-size: 12px;
+  /* line-height: 21.56px; */
+}
+
+input {
+  margin-bottom: 17px;
+  width: 603px;
+  height: 38px;
+  background-color: #d7554e;
+
+  border: none;
+  border-radius: 5px;
+  padding-left: 15px;
+}
+
+textarea {
+  background-color: #d7554e;
+  border: none;
+  border-radius: 5px;
+  height: 180px;
+  padding: 10px 13px;
+}
+
+.contacts {
+  margin-top: 20px;
+}
+
+.contacts img {
+  margin-right: 12px;
+}
+
+.polosa {
+  height: 6px;
+  background-color: #eb676b;
+}
+
+.foot {
+  background-color: #292d37;
+}
+
+footer {
+  width: 940px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 42px;
+  height: 76px;
+}
+
+footer p {
+  font-family: "Lato Light";
+  color: #f0d8d9;
+  font-size: 12px;
+}
+
+.imgas img {
+  margin-left: 5px;
+  transition: 0.3s;
+}
+
+.imgas img:hover {
+  transform: scale(1.2);
+}
+
+.btn {
+  margin-top: 20px;
+  text-decoration: none;
+  width: 200px;
+  background: #d43f37;
+  font-family: "Lato Bold";
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 500;
+  color: #f0d8d9;
+  border: none;
+  padding: 18px 25px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  background-color: #e03830;
+  transition: 0.5s;
+}
