@@ -186,17 +186,17 @@
     font-size: 30px;
   }
   
-  .headerText {
+  .headerTexts {
     padding-bottom: 21px;
     padding-top: 62px;
   }
-  .headerText p {
+  .headerTexts p {
     margin-bottom: 15px;
     font-family: "Lato Light";
     color: #767e9e;
     font-size: 18px;
   }
-  .headerText h2 {
+  .headerTexts h2 {
     padding-bottom: 23px;
     font-family: "Lato Black";
     color: #666d89;
