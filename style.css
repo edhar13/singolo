@@ -330,7 +330,7 @@ margin-top: 5px;
 
   display: flex;
   justify-content: center;
-  padding-bottom: 20px;
+  /* padding-bottom: 20px; */
 }
 
 .headerText {
@@ -435,7 +435,7 @@ footer p {
 }
 
 .btn {
-  margin-top: 20px;
+  margin-top: 12px;
   text-decoration: none;
   width: 100px;
   background: #d43f37;
