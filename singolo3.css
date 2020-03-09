@@ -153,3 +153,7 @@ footer p {
   background-color: #e03830;
   transition: 0.5s;
 }
+
+input:invalid {
+  border: 1px solid red;
+}
