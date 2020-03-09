@@ -23,7 +23,7 @@ header {
   align-items: center;
   /* height: 89px; */
   color: #414556;
-  padding: 34px 0 35px;
+  padding: 40px 0 35px;
 }
 
 .logo h1 {
@@ -31,8 +31,11 @@ header {
   font-family: "Lato Bold";
   font-size: 25px;
   line-height: 6.32px;
-}
 
+}
+.logo {
+  margin-bottom: 9px;
+}
 header a {
   text-decoration: none;
   color: #ffffff;
@@ -47,11 +50,13 @@ header a {
 }
 
 .point {
-  padding: 8px;
+  padding: 7.5px;
 }
 .star {
   color: red;
 }
+
+
 
 nav a:hover {
   color: #f06c64;
@@ -81,9 +86,15 @@ nav a:hover {
   justify-content: space-between;
   align-items: center;
 
-  padding: 59px 0 60px;
+  padding: 50px 0 60px;
+}
+.verMob {
+  margin-right: 8px;
 }
 
+.diaMob {
+  margin-left: 10px;
+}
 .polosa2 {
   height: 6px;
   background-color: #ea676b;
@@ -154,7 +165,16 @@ nav a:hover {
 }
 
 .icon {
-  margin-left: 30px;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+
+.icon1 {
+margin-top: 5px;
+}
+.icon3 {
+  margin-left: 20px;
+  margin-top: 5px;
 }
 
 .polosa3 {
@@ -179,7 +199,7 @@ nav a:hover {
 
 .headerTexts {
   padding-bottom: 21px;
-  padding-top: 62px;
+  padding-top: 55px;
 }
 .headerTexts p {
   margin-bottom: 15px;
@@ -254,18 +274,19 @@ nav a:hover {
 .imgAboutUs p {
   font-family: "Lato Regular";
   font-size: 12px;
-  margin-top: 11px;
-  padding-bottom: 28px;
+  margin-top: 8px;
+  padding-bottom: 23px;
   color: #767e9e;
+  line-height: 21.56px;
 }
 .imgAboutUs img {
   margin-right: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 
 .textAboutUs p {
   margin-top: 25px;
-  margin-bottom: 49px;
+  margin-bottom: 53px;
   font-family: "Lato Light";
   color: #767e9e;
   font-size: 18px;
@@ -313,7 +334,7 @@ nav a:hover {
 }
 
 .headerText {
-  margin-top: 60px;
+  margin-top: 68px;
   padding-bottom: 40px;
 }
 
@@ -361,6 +382,7 @@ input {
   border: none;
   border-radius: 5px;
   padding-left: 15px;
+  color: #99312c;
 }
 
 textarea {
@@ -415,7 +437,7 @@ footer p {
 .btn {
   margin-top: 20px;
   text-decoration: none;
-  width: 200px;
+  width: 100px;
   background: #d43f37;
   font-family: "Lato Bold";
   font-size: 14px;
@@ -434,6 +456,7 @@ footer p {
   transform: scale(1.1);
 }
 
-input:invalid {
+ input:invalid {
   border: 1px solid red;
-}
+  background-color: #e03830;
+} 
