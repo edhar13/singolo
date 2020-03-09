@@ -455,11 +455,5 @@ footer p {
   transition: 0.5s;
   transform: scale(1.1);
 }
-input:valid {
-  background-color: #d6564f;
-}
- 
-input:invalid {
-  border: 1px solid red;
-  background-color: #e03830;
-} 
+
+
