@@ -126,7 +126,9 @@ nav a:hover {
   font-size: 18px;
   margin-top: 15px;
   line-height: 30px;
-  word-spacing: 1.1px;
+  /* word-spacing: 1.1px; */
+  text-align: justify
+  
 }
 
 .first {
@@ -152,6 +154,7 @@ nav a:hover {
   line-height: 21.56px;
   margin-top: 9px;
   overflow: hidden;
+  text-align: justify
 }
 
 .iconText {
@@ -344,6 +347,7 @@ margin-top: 5px;
   font-family: "Lato Light";
   letter-spacing: 1px;
   color: #f0d8d9;
+  
 }
 
 .formContent {
