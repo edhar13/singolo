@@ -3,6 +3,7 @@
   padding: 0;
 }
 
+
 .wrap {
   margin: 0 auto;
   width: 1020px;
@@ -396,7 +397,10 @@ textarea {
 .contacts {
   margin-top: 20px;
 }
-
+.contacts a {
+  text-decoration: none;
+  color: #f0d8d9;
+}
 .contacts img {
   margin-right: 12px;
 }
