@@ -157,8 +157,10 @@ nav a:hover {
   font-size: 12px;
   line-height: 21.56px;
   margin-top: 8px;
-  overflow: hidden;
   text-align: justify;
+  overflow-y: hidden;
+  /* width: 225px; */
+  height: 65px;
   
 }
 
@@ -223,7 +225,7 @@ margin-top: 5px;
   font-size: 18px;
 }
 .headerTexts h2 {
-  padding-bottom: 23px;
+  padding-bottom: 22px;
   font-family: "Lato Black";
   color: #666d89;
   font-size: 30px;
@@ -429,9 +431,19 @@ textarea {
   color: #f0d8d9;
 }
 .contacts img {
-  margin-right: 12px;
+  /* margin-right: 12px; */
 }
 
+.locationimg {
+  margin-left: 2px;
+  padding-right: 11px;
+}
+.phoneImg {
+  padding-right: 10px;
+}
+.mailImg {
+  padding-right: 8px;
+}
 
 
 .foot {
