@@ -132,7 +132,7 @@ form.addEventListener("submit", function(event) {
   let describe =
     document.querySelector('textarea[name="textarea"]').value ||
     "No description";
-  content.innerHTML = `<h2>Письмо отправлено</h2> 
+  content.innerHTML = `<h2>The letter was sent</h2> 
   <p><b>Subject:</b> ${subject}</p>
   <p><b>Description:</b> ${describe}</p>`;
   form.reset();
