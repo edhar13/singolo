@@ -745,6 +745,7 @@ footer p {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 17px;
   }
   .imgAboutUsItem {
     width: 314px;
