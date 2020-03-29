@@ -12,7 +12,9 @@ html {
 }
 .headerBg {
   background-color: #2d303a;
-  
+  position: fixed;
+  width: 1020px;
+  z-index: 999999;
 }
 .content {
   width: 940px;
@@ -35,7 +37,6 @@ header {
   font-family: "Lato Bold";
   font-size: 25px;
   line-height: 6.32px;
-
 }
 .logo {
   margin-bottom: 9px;
@@ -60,8 +61,6 @@ header a {
   color: red;
 }
 
-
-
 nav a:hover {
   color: #f06c64;
 }
@@ -70,30 +69,81 @@ nav a:hover {
   color: #f06c64;
 }
 
-.chev:hover {
+.active {
+  color: #f06c64;
+}
+
+.mainSlider {
+  display: flex;
+  overflow: hidden;
+}
+.sliderBg {
+  padding-top: 96px;
+  background-color: #f06c64;
+}
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 51px 0 60px;
+}
+.sliderContent {
+  width: 1020px;
+  margin: 0 auto;
+  /* padding-left: 80px; */
+}
+
+.sliderBg2 {
+  padding-top: 96px;
+  background-color: #648bf0;
+}
+.chev1 {
+  right: 55px;
+  position: relative;
+  z-index: 999;
+}
+.chev2 {
+  left: 55px;
+  position: relative;
+  z-index: 999;
+}
+.chev1:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: 0.3s;
+}
+.chev2:hover {
   cursor: pointer;
   transform: scale(1.2);
   transition: 0.3s;
 }
 
-.sliderBg {
-  background-color: #f06c64;
+.slider2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 51px 0 60px;
 }
-
-.sliderContent {
-  width: 940px;
+.slider2Content {
+  width: 1020px;
   margin: 0 auto;
 }
 
-.slider {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-  padding: 51px 0 60px;
+.sliderAnim {
+  transform: translateX(-1020px);
+  transition: 1.5s;
 }
+.sliderAnim2 {
+  transform: translateX(-2040px);
+  transition: 1.5s;
+}
+.sliderAnim3 {
+  transform: translateX(1020px);
+  transition: 1.5s;
+}
+
 .verMob {
-  margin-right: 8px;
+  margin-right: 60px;
 }
 
 .diaMob {
@@ -129,9 +179,8 @@ nav a:hover {
   font-size: 18px;
   margin-top: 15px;
   line-height: 30px;
-  
-  text-align: justify
-  
+
+  text-align: justify;
 }
 
 .first {
@@ -143,9 +192,6 @@ nav a:hover {
   display: flex;
   padding-bottom: 60px;
 }
-
-
-  
 
 .icons h2 {
   color: #666d89;
@@ -163,7 +209,6 @@ nav a:hover {
   overflow-y: hidden;
   /* width: 225px; */
   height: 65px;
-  
 }
 
 .iconText {
@@ -183,7 +228,7 @@ nav a:hover {
 }
 
 .icon1 {
-margin-top: 5px;
+  margin-top: 5px;
 }
 .icon3 {
   margin-left: 20px;
@@ -202,12 +247,9 @@ margin-top: 5px;
   color: #666d89;
   font-size: 18px;
   white-space: nowrap;
-  overflow-x:hidden; 
-  
+  overflow-x: hidden;
 
   width: 300px;
-  
-  
 }
 
 .textAboutUs h2 {
@@ -246,6 +288,9 @@ margin-top: 5px;
 }
 
 .butn:hover {
+  color: white;
+}
+.activeBtn {
   color: white;
 }
 
@@ -313,7 +358,6 @@ margin-top: 5px;
   font-size: 18px;
   line-height: 30px;
   text-align: justify;
-  
 }
 
 .social img {
@@ -361,7 +405,6 @@ margin-top: 5px;
 }
 
 .headerText {
-  
   padding-bottom: 42px;
 }
 
@@ -371,7 +414,6 @@ margin-top: 5px;
   letter-spacing: 1px;
   color: #f0d8d9;
   text-align: justify;
-  
 }
 
 .formContent {
@@ -387,8 +429,6 @@ margin-top: 5px;
 .formText {
   margin-left: 22px;
 }
-
-
 
 .formText p {
   font-size: 12px;
@@ -432,9 +472,6 @@ textarea {
   text-decoration: none;
   color: #f0d8d9;
 }
-.contacts img {
-  /* margin-right: 12px; */
-}
 
 .locationimg {
   margin-left: 2px;
@@ -446,7 +483,6 @@ textarea {
 .mailImg {
   padding-right: 8px;
 }
-
 
 .foot {
   background-color: #292d37;
@@ -478,17 +514,15 @@ footer p {
 }
 
 .btn {
-  margin-top: 12px;
-  text-decoration: none;
   width: 100px;
+  margin-top: 12px;
   background: #d43f37;
   font-family: "Lato Bold";
   font-size: 14px;
-  line-height: 17px;
   font-weight: 500;
   color: #f0d8d9;
   border: none;
-  padding: 18px 25px;
+  padding-left: 0;
   cursor: pointer;
   border-radius: 5px;
 }
@@ -499,4 +533,37 @@ footer p {
   transform: scale(1.1);
 }
 
+.modal {
+  display: none;
+  position: fixed;
+  padding-top: 200px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
 
+.modalContent {
+  background-color: #f2f2f2;
+  margin: auto;
+  padding: 20px;
+  width: 50%;
+  overflow: hidden;
+}
+
+.ok {
+  color: white;
+  border: none;
+  border-radius: 5px;
+  background-color: #d43f37;
+  padding: 8px 16px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.ok:hover {
+  transition: 0.5s;
+  transform: scale(1.1);
+  text-decoration: none;
+  cursor: pointer;
+}

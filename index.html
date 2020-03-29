@@ -11,40 +11,52 @@
     <div class="wrap">
       <div id="anchorHome"></div>
       <div class="headerBg">
-        <div class="content">
-          <header>
-            <div class="logo">
-              <h1>SINGOLO<span class="star">*</span></h1>
-            </div>
+        <div class="fixWrap">
+          <div class="content">
+            <header>
+              <div class="logo">
+                <h1>SINGOLO<span class="star">*</span></h1>
+              </div>
 
-            <nav>
-              <a href="#anchorHome" class="active">HOME</a>
-              <span class="point">·</span>
-              <a href="#anchorServices">SERVICES</a>
-              <span class="point">·</span>
-              <a href="#anchorPortfolio">PORTFOLIO</a>
-              <span class="point">·</span>
-              <a href="#anchorAbout">ABOUT</a>
-              <span class="point">·</span>
-              <a href="#anchorContact">CONTACT</a>
-            </nav>
-          </header>
+              <nav>
+                <a href="#anchorHome" class="navItem">HOME</a>
+                <span class="point">·</span>
+                <a href="#anchorServices" class="navItem">SERVICES</a>
+                <span class="point">·</span>
+                <a href="#anchorPortfolio" class="navItem">PORTFOLIO</a>
+                <span class="point">·</span>
+                <a href="#anchorAbout" class="navItem">ABOUT</a>
+                <span class="point">·</span>
+                <a href="#anchorContact" class="navItem">CONTACT</a>
+              </nav>
+            </header>
+          </div>
         </div>
+
+        <div class="polosa"></div>
       </div>
+      <div class="mainSlider">
+        <div class="sliderBg">
+          <div class="sliderContent">
+            <div class="slider">
+              <img src="assets/img/chev.png" alt="" class="chev1" />
+              <img src="assets/img/ver-mob.png" alt="" class="verMob" />
 
-      <div class="polosa"></div>
+              <img src="assets/img/di-mob.png" alt="" class="diaMob" />
+              <img src="assets/img/chev2.png" alt="" class="chev2" />
+            </div>
+          </div>
+        </div>
 
-      <div class="sliderBg">
-        <div class="sliderContent">
-          <div class="slider">
-            <img src="assets/img/chev.png" alt="" class="chev" />
-            <img src="assets/img/ver-mob.png" alt="" class="verMob" />
-
-            <img src="assets/img/di-mob.png" alt="" class="diaMob" />
-            <img src="assets/img/chev2.png" alt="" class="chev" />
+        <div class="sliderBg2">
+          <div class="slider2Content">
+            <div class="slider2">
+              <img src="assets/img/Slide-2.png" alt="" class="mainImg" />
+            </div>
           </div>
         </div>
       </div>
+      <!--slider-->
 
       <div class="polosa2"></div>
       <div id="anchorServices"></div>
@@ -136,7 +148,7 @@
           </div>
         </div>
       </div>
-
+      <!--Services-->
       <div class="polosa3"></div>
       <div id="anchorPortfolio"></div>
       <div class="headerWrap">
@@ -148,29 +160,30 @@
               eget lacinia odio sem nec elit.
             </p>
             <div class="buttons">
-              <a href="#" class="butn">All</a>
-              <a href="#" class="butn">Web Design</a>
-              <a href="#" class="butn">Graphic Design</a>
-              <a href="#" class="butn">Artwork</a>
+              <a href="##" class="butn">All</a>
+              <a href="##" class="butn">Web Design</a>
+              <a href="##" class="butn">Graphic Design</a>
+              <a href="##" class="butn">Artwork</a>
             </div>
           </div>
 
           <div class="images">
-            <img src="assets/img/Project.png" alt="" />
-            <img src="assets/img/1.png" alt="" />
-            <img src="assets/img/Layer_9.png" alt="" />
-            <img src="assets/img/2.png" alt="" />
-            <img src="assets/img/3.png" alt="" />
-            <img src="assets/img/4.png" alt="" />
-            <img src="assets/img/Layer_11.png" alt="" />
-            <img src="assets/img/Layer_8.png" alt="" />
-            <img src="assets/img/5.png" alt="" />
-            <img src="assets/img/6.png" alt="" />
-            <img src="assets/img/7.png" alt="" />
-            <img src="assets/img/8.png" alt="" />
+            <img src="assets/img/Project.png" alt="" class="portImg" />
+            <img src="assets/img/1.png" alt="" class="portImg" />
+            <img src="assets/img/Layer_9.png" alt="" class="portImg" />
+            <img src="assets/img/2.png" alt="" class="portImg" />
+            <img src="assets/img/3.png" alt="" class="portImg" />
+            <img src="assets/img/4.png" alt="" class="portImg" />
+            <img src="assets/img/Layer_11.png" alt="" class="portImg" />
+            <img src="assets/img/Layer_8.png" alt="" class="portImg" />
+            <img src="assets/img/5.png" alt="" class="portImg" />
+            <img src="assets/img/6.png" alt="" class="portImg asee" />
+            <img src="assets/img/7.png" alt="" class="portImg" />
+            <img src="assets/img/8.png" alt="" class="portImg" />
           </div>
         </div>
       </div>
+      <!--Portfolio-->
       <div class="strip"></div>
       <div id="anchorAbout"></div>
       <div class="aboutUs">
@@ -237,7 +250,7 @@
         </div>
       </div>
       <div class="whiteStrip"></div>
-      <div id="anchorContact"></div>
+      <!--AboutUs-->
       <div class="bgColor">
         <div class="wrapContent">
           <div class="headerText">
@@ -251,17 +264,27 @@
           </div>
           <div class="formContent">
             <form action="" class="form">
-              <input type="text" placeholder="Name (Required)" required />
-              <input type="email" placeholder="Email (Required)" required />
-              <input type="text" placeholder="Subject" />
+              <input
+                name="text"
+                type="text"
+                placeholder="Name (Required)"
+                required
+              />
+              <input
+                name="email"
+                type="email"
+                placeholder="Email (Required)"
+                required
+              />
+              <input name="subject" type="text" placeholder="Subject" />
               <textarea
-                name=""
-                id=""
+                name="textarea"
                 cols="30"
                 rows="10"
                 placeholder="Describe your project in detail..."
               ></textarea>
-              <button class="btn">Submit</button>
+
+              <input class="btn" type="submit" value="Submit" />
             </form>
 
             <div class="formText">
@@ -296,8 +319,9 @@
           </div>
         </div>
       </div>
-
+      <div id="anchorContact"></div>
       <div class="polosa2"></div>
+      <!--GetAQuote-->
       <div class="foot">
         <footer>
           <p>© Copyright 2013</p>
@@ -308,6 +332,13 @@
             <a href=""><img src="assets/img/inst.png" alt=""/></a>
           </div>
         </footer>
+      </div>
+      <!--Footer-->
+      <div id="modalWindow" class="modal">
+        <div class="modalContent">
+          <div class="modalConteiner"></div>
+          <button class="ok">OK</button>
+        </div>
       </div>
     </div>
     <script src="script.js"></script>
