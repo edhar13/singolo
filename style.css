@@ -153,6 +153,7 @@ nav a:hover {
   height: 6px;
   background-color: #ea676b;
 }
+/* Slider */
 
 .servicesBg {
   padding-top: 60px;
@@ -186,7 +187,9 @@ nav a:hover {
 .first {
   display: flex;
 }
-
+.firstWr1 {
+  display: flex;
+}
 .second {
   margin-top: 30px;
   display: flex;
@@ -240,7 +243,7 @@ nav a:hover {
   background-color: #ffffff;
 }
 
-/* */
+/* Services */
 
 .imgAboutUs h3 {
   font-family: "Lato Black";
@@ -318,7 +321,7 @@ nav a:hover {
   background-color: #323746;
   height: 6px;
 }
-
+/* Portfolio*/
 .headerConteiner {
   width: 940px;
 }
@@ -375,7 +378,7 @@ nav a:hover {
   background-color: white;
 }
 
-/* */
+/* About Us */
 
 .headerText h2 {
   font-family: "Lato Black";
@@ -445,7 +448,7 @@ nav a:hover {
   /* line-height: 21.56px; */
 }
 
-input {
+.input {
   margin-bottom: 17px;
   width: 603px;
   height: 38px;
@@ -483,7 +486,7 @@ textarea {
 .mailImg {
   padding-right: 8px;
 }
-
+/*Get a quote */
 .foot {
   background-color: #292d37;
 }
@@ -532,11 +535,11 @@ footer p {
   transition: 0.5s;
   transform: scale(1.1);
 }
-
+/* Footer */
 .modal {
   display: none;
   position: fixed;
-  padding-top: 300px;;
+  padding-top: 300px;
   left: 0;
   top: 0;
   width: 100%;
@@ -547,7 +550,7 @@ footer p {
 .modalContent {
   background-color: #f2f2f2;
   margin: 0 auto;
-  
+
   padding: 20px;
   width: 40%;
   overflow: hidden;
@@ -571,3 +574,314 @@ footer p {
   text-decoration: none;
   cursor: pointer;
 }
+/* modal*/
+
+@media (max-width: 785px) {
+  .wrap {
+    width: 785px;
+  }
+
+  header {
+    width: 690px;
+  }
+  .headerBg {
+    width: 785px;
+  }
+  .logo {
+    margin-left: 40px;
+  }
+  .sliderContent {
+    width: 785px;
+  }
+  .slider2Content {
+    width: 785px;
+  }
+  .verMob {
+    height: 362px;
+  }
+  .diaMob {
+    height: 182px;
+  }
+  .mainImg {
+    height: 362px;
+  }
+  .chev1 {
+    right: 35px;
+  }
+  .chev2 {
+    left: 35px;
+  }
+  .sliderAnim {
+    transform: translateX(-785px);
+  }
+  .servicesContent {
+    width: 690px;
+  }
+  .first {
+    flex-direction: column;
+  }
+
+  .second {
+    flex-direction: column;
+    margin: 0;
+  }
+  .icons {
+    display: flex;
+    justify-content: space-around;
+  }
+  .icon,
+  .icon1,
+  .icon3 {
+    margin-left: 0;
+  }
+  .firstWr1 {
+    margin-bottom: 40px;
+  }
+
+  .headerConteiner {
+    width: 690px;
+  }
+  .aboutConteiner {
+    width: 690px;
+  }
+  .imgAboutUsItem {
+    width: 220px;
+  }
+  .imgAboutUs p {
+    width: 220px;
+  }
+  .imgAboutUs h3 {
+    width: auto;
+  }
+  .wrapContent {
+    width: 690px;
+  }
+  .input {
+    width: 442px;
+  }
+  .btn {
+    width: 100px;
+  }
+  footer {
+    width: 690px;
+  }
+}
+
+@media (max-width: 375px) {
+  .wrap {
+    width: 375px;
+  }
+  .headerBg {
+    width: 375px;
+  }
+
+  nav {
+    display: none;
+  }
+  .logo {
+    padding-left: 100px;
+    padding-top: 10px;
+    /* padding-top: 20px; */
+    /* padding-bottom: 20px; */
+  }
+
+  header {
+    width: 314px;
+    padding: 0;
+  }
+  .sliderContent {
+    width: 375px;
+  }
+  .slider2Content {
+    width: 375px;
+  }
+  .sliderBg,
+  .sliderBg2 {
+    padding-top: 30px;
+  }
+  .slider,
+  .slider2 {
+    padding-bottom: 20px;
+  }
+  .verMob {
+    height: 178px;
+    margin-right: 0;
+  }
+
+  .diaMob {
+    height: 90px;
+  }
+  .mainImg {
+    height: 178px;
+  }
+  .sliderAnim {
+    transform: translateX(-375px);
+  }
+  .chev1 {
+    right: 25px;
+  }
+  .chev2 {
+    left: 25px;
+  }
+  .servicesContent {
+    width: 314px;
+  }
+  .icons {
+    flex-direction: column;
+  }
+  .headerConteiner {
+    width: 314px;
+  }
+  .images {
+    justify-content: space-around;
+  }
+  .images img {
+    width: 140px;
+  }
+  .aboutConteiner {
+    width: 314px;
+  }
+  .imgAboutUs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .imgAboutUsItem {
+    width: 314px;
+  }
+  .wrapContent {
+    width: 314px;
+    /* display: flex;
+    flex-direction: column; */
+  }
+  .formContent {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+  }
+  .input {
+    width: 315px;
+  }
+  textarea {
+    width: 300px;
+  }
+  footer {
+    width: 314px;
+  }
+  .btn {
+    width: 330px;
+  }
+  .fixWrap {
+    height: 60px;
+  }
+}
+/* Media */
+
+@media (min-width: 376px) {
+  .burgerMenu {
+    display: none;
+  }
+}
+#toggle {
+  opacity: 0;
+}
+
+.burgerBtn {
+  display: flex;
+  top: 30px;
+  position: fixed;
+  left: 25px;
+  width: 26px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+}
+.logoBurger {
+  position: absolute;
+  top: 30px;
+  left: 100px;
+}
+.logoBurger h1 {
+  color: #ffffff;
+  font-family: "Lato Bold";
+  font-size: 25px;
+  line-height: 6.32px;
+}
+
+.burgerBtn > span,
+.burgerBtn > span::before,
+.burgerBtn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: white;
+}
+.burgerBtn > span::before {
+  content: "";
+  top: -8px;
+}
+.burgerBtn > span::after {
+  content: "";
+  top: 8px;
+}
+
+.burgerBox {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: -100%;
+  width: 260px;
+  height: 100%;
+  margin: 0;
+  padding: 200px 0;
+  list-style: none;
+  text-align: center;
+  background-color: #2d303a;
+  box-shadow: 120px 0 0 rgba(0, 0, 0, 0.6);
+}
+
+.burgerItem {
+  display: block;
+  padding: 25px 24px;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: left;
+  margin-left: 60px;
+}
+
+.burgerItem:hover {
+  color: #f06c64;
+}
+
+#toggle:checked ~ .burgerBtn > span {
+  transform: rotate(45deg);
+}
+#toggle:checked ~ .burgerBtn > span::before {
+  top: 0;
+  transform: rotate(0);
+}
+#toggle:checked ~ .burgerBtn > span::after {
+  top: 0;
+  transform: rotate(90deg);
+}
+#toggle:checked ~ .burgerBox {
+  visibility: visible;
+  left: 0;
+}
+
+.burgerBtn > span,
+.burgerBtn > span::before,
+.burgerBtn > span::after {
+  transition-duration: 0.25s;
+}
+.burgerBox {
+  transition-duration: 0.25s;
+}
+.burgerItem {
+  transition-duration: 0.25s;
+}
+/* burger*/

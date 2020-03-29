@@ -1,4 +1,5 @@
 let navItems = document.querySelectorAll(".navItem");
+let burgerItem = document.querySelectorAll(".burgerItem");
 let anchorHome = document.getElementById("anchorHome").offsetTop;
 let anchorServices = document.getElementById("anchorServices").offsetTop;
 let anchorPortfolio = document.getElementById("anchorPortfolio").offsetTop;
@@ -19,37 +20,54 @@ let btn = document.querySelector(".btn");
 let ok = document.querySelector(".ok");
 let form = document.querySelector(".form");
 let content = document.querySelector(".modalConteiner");
+let toggle = document.querySelector("input[type=checkbox]");
 
 window.onscroll = function() {
   let scroll = window.pageYOffset;
   if (scroll >= anchorHome && scroll < anchorServices) {
     navItems[0].classList.add("active");
+    burgerItem[0].classList.add("active");
   } else {
     navItems[0].classList.remove("active");
+    burgerItem[0].classList.remove("active");
   }
 
   if (scroll >= anchorServices && scroll < anchorPortfolio) {
     navItems[1].classList.add("active");
+    burgerItem[1].classList.add("active");
   } else {
     navItems[1].classList.remove("active");
+    burgerItem[1].classList.remove("active");
   }
 
   if (scroll >= anchorPortfolio && scroll < anchorAbout) {
     navItems[2].classList.add("active");
+    burgerItem[2].classList.add("active");
   } else {
     navItems[2].classList.remove("active");
+    burgerItem[2].classList.remove("active");
   }
   if (scroll >= anchorAbout && scroll < anchorContact) {
     navItems[3].classList.add("active");
+    burgerItem[3].classList.add("active");
   } else {
     navItems[3].classList.remove("active");
+    burgerItem[3].classList.remove("active");
   }
   if (scroll >= anchorContact) {
     navItems[4].classList.add("active");
+    burgerItem[4].classList.add("active");
   } else {
     navItems[4].classList.remove("active");
+    burgerItem[4].classList.remove("active");
   }
 };
+
+for (let i = 0; i <= burgerItem.length - 1; i++) {
+  burgerItem[i].onclick = function() {
+    toggle.checked = false;
+  };
+}
 
 chev2.onclick = function() {
   if (sliderBg2.classList.contains("sliderAnim")) {
